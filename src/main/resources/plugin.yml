@@ -1,0 +1,13 @@
+name: DayTab
+main: com.example.daytab.DayTabPlugin
+version: 1.0.0
+api-version: "1.21"
+commands:
+  daytab:
+    description: Simple command for DayTab plugin
+    usage: /<command> reload
+    permission: daytab.use
+permissions:
+  daytab.use:
+    description: Allows using DayTab command
+    default: true
